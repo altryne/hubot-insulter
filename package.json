@@ -1,7 +1,7 @@
 {
   "name": "hubot-insulter",
   "description": "A hubot script to insult or compliment someone for you",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alex Wolkov <git@alexw.me>",
   "license": "MIT",
 

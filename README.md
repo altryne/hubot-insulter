@@ -1,35 +1,14 @@
-# Hubot Example
+### hubot-insulter
 
-An example script package for Hubot
+#### Description
+Packaged [javascript-sandbox](https://github.com/github/hubot-scripts/blob/master/src/scripts/javascript-sandbox.coffee) for NPM
 
-[![Build Status](https://travis-ci.org/hubot-scripts/hubot-example.png)](https://travis-ci.org/hubot-scripts/hubot-example)
+#### Installation
+`npm install --save hubot-insulter`
 
-## Directory Structure
+add `["hubot-insulter"]` to your `external-scripts.json`.
 
-Using the common directory structure for hubot script packages it will be easy
-to manage and allow others to easily contribute to your package.
+#### Examples
+`hubot insult @user` -> `hey @user, you suck! (or any of the 100 random insults)`
 
-### script
-
-This directory is home to a couple of development scripts; `bootstrap` and `test`
-they're used to bootstrap the development environment and run tests
-respectively.
-
-### src
-
-This directory is home to the actual hubot scripts in the package. Your
-`index.coffee` entry point will load the scripts from this directory.
-
-### test
-
-This directory is home to any tests you write for your scripts. This example
-package uses Mocha, Chai and Sinon to manage writing tests.
-
-## Advantages of Building a Package
-
-Some of the advantages of building an npm package for your hubot script(s) are:
-
-* You don't need to rely on when hubot-scripts package is released.
-* You can specify dependencies in the `package.json` rather than have users
-  manually specify them
-* You can easily add tests using your favourite frameworks and libraries
+`hubot compliment @user` -> `hey @user, you rock! (or any of the 100 random compliments)`

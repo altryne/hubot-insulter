@@ -461,8 +461,8 @@ compliments = ["You have very smooth hair."
 module.exports = (robot) ->
   robot.respond /insult (.*)/i, (msg) ->
     insult = msg.random insults
-    msg.send "hey #{msg.match[1]} #{insult}"
+    msg.send "hey #{msg.match[1]}, #{insult}"
 
   robot.respond /compliment (.*)/i, (msg) ->
     compliment = msg.random compliments
-    msg.send "hey #{msg.match[1]} #{compliment}"
+    msg.send "hey #{msg.match[1]}, #{compliment}"
