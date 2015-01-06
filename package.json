@@ -1,7 +1,7 @@
 {
   "name": "hubot-insulter",
   "description": "A hubot script to insult or compliment someone for you",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Alex Wolkov <git@alexw.me>",
   "license": "MIT",
 
@@ -12,18 +12,19 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "git://github.com/altryne/hubot-insulter.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/altryne/hubot-insulter/issues"
   },
 
   "dependencies": {
-    "coffee-script": "~1.6"
+
   },
 
   "devDependencies": {
+    "coffee-script": "~1.6",
     "mocha": "*",
     "chai": "*",
     "sinon-chai": "*",

@@ -1,7 +1,10 @@
 ### hubot-insulter
 
 #### Description
-Packaged [javascript-sandbox](https://github.com/github/hubot-scripts/blob/master/src/scripts/javascript-sandbox.coffee) for NPM
+A great way to first insult someone on your team and then compliment them.
+
+Works with @mentions, and with everything else really. E.G 
+hubot insult people who shot at wallmart
 
 #### Installation
 `npm install --save hubot-insulter`
